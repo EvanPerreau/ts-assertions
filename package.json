@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "Evan Perreau",
+  "license": "MIT",
+  "description": "A simple and assertion library for TypeScript",
   "files": [
     "dist"
   ],
