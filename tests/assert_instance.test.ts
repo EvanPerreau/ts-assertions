@@ -1,11 +1,11 @@
-import {assert_instance} from "../src";
+import {assertInstance} from "../src";
 
 describe('AssertInstance', () => {
     it('should not throw an error for an instance', () => {
-        expect(() => assert_instance(new String('hello'), String)).not.toThrow();
+        expect(() => assertInstance(new String('hello'), String)).not.toThrow();
     });
 
     it('should throw an error for a non-instance', () => {
-        expect(() => assert_instance(123, String)).toThrow('Expected value to be an instance of String');
+        expect(() => assertInstance(123, String)).toThrow('Expected value to be an instance of String');
     });
 })
