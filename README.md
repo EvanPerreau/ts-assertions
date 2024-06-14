@@ -14,6 +14,6 @@ npm install ts-simple-assertions
 import { assert_string } from 'ts-assertions';
 
 const value: any = 'hello';
-assert_string(value); // No error
-assert_string(123); // Throws error
+assertString(value); // No error
+assertString(123); // Throws error
 ```
