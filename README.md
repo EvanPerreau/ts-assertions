@@ -5,7 +5,7 @@ A TypeScript library for type assertions.
 ## Installation
 
 ```bash
-npm install ts-assertions
+npm install ep@ts-assertions
 ```
 
 ## Usage
