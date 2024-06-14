@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanPerreau/ts-assertions.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest"
   },
+  "keywords": [
+    "assertions",
+    "type",
+    "utility"
+  ],
   "devDependencies": {
     "@types/jest": "^27.5.2",
     "jest": "^27.0.6",
